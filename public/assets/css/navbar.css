@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar a {
+    font-weight: bold;
+}
+
+#search {
+    height: 30px;
+}
+
+.navbar-nav li:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#logo {
+    width: 130px;
+    height: 50px;
+}
+
+#iconoBuscar {
+    width: 1rem;
+    height: 1rem;
+}
+
+#navbarSupportedContent.show {
+    background: rgba(0, 0, 0, .5)
+}

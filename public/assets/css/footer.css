@@ -1,0 +1,25 @@
+footer {
+    background-color: black;
+    height: 15.6rem;
+    /* position: relative;
+    bottom: 0; */
+    font-size: 110%;
+}
+
+footer, footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer .icono {
+    opacity: .3;
+}
+
+footer .icono:hover {
+    opacity: .7;
+    transition: opacity 100ms;
+}

@@ -1,0 +1,143 @@
+
+/* .navbar{
+    background-color: #d8282e;
+    position: fixed;
+    z-index: 5;
+} */
+
+.inputsLugarContainer{
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+    position: relative;
+}
+
+.alturafija{
+    height: 100vh;
+    
+
+}
+
+.imageInputfondo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* left: 0px; */
+    z-index: -1;
+}
+
+@media (max-width: 576px) {
+    .inputsLugarContainer{
+        min-height: 360px; 
+    }
+}
+
+.container-form{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-color{
+    background-color:#DB1D23;
+}
+
+.colorfondoboton{
+    background-color:#DB1D23!important;
+}
+
+.container-services-home{
+    padding: 60px;
+    text-align: center;
+} 
+
+.row{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.titulodecarta{
+    color:#DB1D23;
+}
+/* .vermasuno{
+    color: #DB1D23;
+    text-decoration: none;
+} */
+.colorver{
+    color: #DB1D23;
+}
+.titulo{
+    color: #DB1D23;
+}
+.card{
+    width: 60px;
+    height: 230px;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+.holacaja{
+    width: 170px;
+    height: 125px;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1;
+    color: grey;
+    transition: all 0.3s ease-in-out;
+}
+
+.holacaja:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+
+.img-pn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.index-serv-text{
+    width: 250px;
+    height: 250px;
+
+}
+
+.publicidad{
+    width: 100vw;
+    height: 300px;
+    background-color: #DB1D23;
+}
+
+.estadisticas{
+    background-color: black;
+    color: white;
+}
+
+.destacado{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+.card{
+    border-radius: 2%;
+    border-color: black;
+    border: solid;
+  
+}
+
+.card-destacados{
+    height: auto;
+    width: 250px!important;;
+}
+
+.card-destacados-img {
+    width: 15.5rem;
+    height: 15.5rem;
+}
+/* .btn{
+    background-color: #DB1D23 !important;
+    color: white!important;
+} */

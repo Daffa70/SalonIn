@@ -1,0 +1,29 @@
+.infobar{
+    margin-left: 100px;
+    border-radius: 8px;
+    position: inherit;
+    /* padding-block: 60px; */    
+    background: #A5BECC;
+}
+
+.infobar-img{
+    border-radius: 100px;
+    width: 5rem;
+    height: 5rem;
+}
+.securitycod{
+    margin-top: 20px;
+}
+
+
+.container.main {
+    background: #F2EBE9;
+}
+
+#botonReservar {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 2.5rem;
+    margin-top: 1.5rem;
+}

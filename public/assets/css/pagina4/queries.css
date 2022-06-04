@@ -1,0 +1,13 @@
+@media screen and (min-width: 992px) {
+    .container.main {
+        height: 450px;
+    }
+    .container.main .row {
+        height: inherit;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+}

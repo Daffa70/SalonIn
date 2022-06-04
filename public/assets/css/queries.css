@@ -1,0 +1,23 @@
+@media screen and (max-width: 375px) {
+    .modal-dialog {
+        left: 9%;
+    }
+
+    /* nav#breadcrumb + * {
+        margin-top: 25%;
+    } */
+
+    .breadcrumb {
+        margin-top: 4.3rem;
+    }
+
+    footer {
+        height: 21rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        padding-top: 40px;
+    }
+}

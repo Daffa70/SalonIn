@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.icono {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.link-ul:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-primario {
+    background-color: rgba(87, 117, 172, 0.788);
+    color: white;
+    border: none;
+}
+
+.btn-primario:hover {
+    color: white;
+    background-color: #4B6BA7;
+}
+

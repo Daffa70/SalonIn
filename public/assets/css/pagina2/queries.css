@@ -1,0 +1,15 @@
+@media screen and (max-width: 375px) {
+    .salon-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .salon-img {
+        position: relative;
+        top: 7%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}

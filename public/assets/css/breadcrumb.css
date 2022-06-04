@@ -1,0 +1,17 @@
+.breadcrumb {
+    height: 30px;
+    background-color: rgba(87, 117, 172, 0.788);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 3.75rem;
+}
+
+.breadcrumb-item a{
+    color: white;
+    font-weight: bold;
+}
+
+.breadcrumb-item.active, .breadcrumb-item::before {
+    color: white!important;
+}
+

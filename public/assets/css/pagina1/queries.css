@@ -1,0 +1,14 @@
+@media screen and (max-width: 376px) {
+    .imageInputfondo {
+        width: auto;
+        right: -0.25rem;
+    }
+
+    .container-form {
+        margin-left: 13%;
+    }
+
+    .card-destacados {
+        margin-bottom: 15%;
+    }
+}

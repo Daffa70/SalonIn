@@ -1,0 +1,63 @@
+.modal-backdrop {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    width: 300px;
+}
+
+.modal-content form {
+    height: inherit;
+}
+
+.modal-content .link-modal {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #4B6BA7;
+}
+
+.modal-dialog {
+    position: relative;
+    width: 300px;
+}
+
+#modalIngresar .modal-content.contenido {
+    height: 350px;
+}
+
+#modalRegistrarse .modal-content.contenido {
+    height: 450px;
+}
+
+#modalRegistrarSalon .modal-content.contenido {
+    height: 500px;
+}
+
+#modalRecuperar .modal-content.contenido {
+    height: 290px;
+}
+
+
+
+#menuMovil .modal-content, .modal-content.volver {
+    background: none;
+    border: none;
+}
+
+.modal-content.volver {
+    position: relative;
+    left: -9%;
+}
+
+.modal-content.volver .icono {
+    vertical-align: top;
+}
+
+#menuMovil .modal-content a, .modal-content.volver a {
+    color: white;
+}
+
+#menuMovil #linkPublicar {
+    font-weight: 700;
+}

@@ -1,0 +1,16 @@
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+#misreservas{
+    border:solid;
+}
+
+.table.horarios td {
+    text-align: center;
+}
+
+.carrusel-item {
+    height: 13rem;
+}
