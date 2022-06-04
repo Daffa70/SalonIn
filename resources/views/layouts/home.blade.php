@@ -119,7 +119,7 @@
                             </li>
                         </ul>
                     </div>
-                    @elseif (Auth::user()->is_admin == 1)
+                    @elseif (Auth::user()->is_admin == 2)
                     <div class="collapse navbar-collapse" id="navbar-list-4">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
