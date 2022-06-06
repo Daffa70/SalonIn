@@ -45,7 +45,12 @@ class DetailSalon extends Component
     }
 
     function getPrecentages($inputValue, $totalStar) {
-        $rating = $inputValue * 100 / $totalStar;
+        if($inputValue == 0 && $totalStar == 0){
+            $rating = $inputValue * 100 / $totalStar;
+        }
+        else{
+            $rating = 0;
+        }
 
         return $rating;
     }
