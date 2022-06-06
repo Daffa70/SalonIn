@@ -12,7 +12,7 @@ class HomeUser extends Component
     public $search;
     public function render()
     {
-        $salons = Salon::where('status_salon', "APPROVE")->limit(5)->get();
+        $salons = Salon::where('status_salon', "ACCEPTED")->limit(5)->get();
         $product = ProductSalon::all();
         $bookings = Booking::all();
 

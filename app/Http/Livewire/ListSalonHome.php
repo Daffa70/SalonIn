@@ -16,10 +16,10 @@ class ListSalonHome extends Component
     public function render()
     {
         if($this->search == "all"){
-            $salons = Salon::where('status_salon', "APPROVE")->get();
+            $salons = Salon::where('status_salon', "ACCEPTED")->get();
         }
         else{
-            $salons = Salon::where('status_salon', "APPROVE")->where('name_salon', 'LIKE', '%'.$this->search.'%')->get();
+            $salons = Salon::where('status_salon', "ACCEPTED")->where('name_salon', 'LIKE', '%'.$this->search.'%')->get();
         }
 
         return view('livewire.list-salon-home',[
